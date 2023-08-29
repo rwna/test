@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.div1{
+    height: 100px;
+    width: 200px;
+    background-size: cover;
+    background-color: rgb(154, 154, 170);
+    border-radius: 20px;
+    margin-top: 20px;
+    font-size: 24px;
+    color: rgb(2, 27, 39);
+    padding: 20px;
+    text-align: center;
+    animation-name: test;
+    animation-duration: 3s;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
+     position: absolute;
+}
+
+@keyframes test{
+    0%{
+          background-color:  rgb(154, 154, 170);
+          left: 0px;
+    }
+    100%{
+        background-image: url(space4.jpg);
+     left: 1100px;
+    }
+}
+
+.div2{
+    height: 100px;
+    width: 200px;
+    background-color: rgb(154, 154, 170);
+    background-size: cover;
+    border-radius: 20px;
+    top: 140px;
+    font-size: 24px;
+    color: rgb(2, 27, 39);
+    padding: 20px;
+    text-align: center;
+    animation-name: div2;
+    animation-duration: 3s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+    animation-direction: reverse;
+     position: absolute;
+     right: 70px;
+}
+@keyframes div2{
+    0%{
+        background-image: url(space5.jpg);
+       
+        left: 0px;
+    }
+    100%{
+        background-color: rgb(154, 154, 170);
+        left: 1100px;
+    }
+}
+
+.div3{
+    height: 100px;
+    width: 200px;
+    background-color: rgb(154, 154, 170);
+    background-size: cover;
+    border-radius: 20px;
+    top: 280px;
+    font-size: 24px;
+    color: rgb(2, 27, 39);
+    padding: 36px;
+    text-align: center;
+    animation-name: div3;
+    animation-duration: 3s;
+    animation-delay: 6s;
+    animation-fill-mode: forwards;
+     position: absolute;
+}
+
+@keyframes div3{
+    0%{
+        background-color:  rgb(154, 154, 170);
+        left: 0px;
+    }
+    100%{
+        left: 1100px;
+        background-image: url(nature1.jpg);
+    
+    }
+}
+
+.div4{
+    height: 100px;
+    width: 200px;
+    background-color: rgb(154, 154, 170);
+    background-size: cover;
+    border-radius: 20px;
+    top: 400px;
+    font-size: 24px;
+    color: rgb(2, 27, 39);
+    padding: 20px;
+    text-align: center;
+    animation-name: div4;
+    animation-duration: 3s;
+    animation-delay: 9s;
+    animation-fill-mode: forwards;
+    animation-direction: reverse;
+     position: absolute;
+     right: 70px;
+}
+
+@keyframes div4{
+    0%{
+        background-image: url(nature2.jpg);
+        left: 0px;
+    }
+    100%{
+       background-color:  rgb(154, 154, 170);
+       left: 1100px;
+    }
+}
+
+.div5{
+    height: 100px;
+    width: 200px;
+    background-color: rgb(154, 154, 170);
+    background-size: cover;
+    border-radius: 20px;
+    top: 520px;
+    font-size: 24px;
+    color: rgb(2, 27, 39);
+    padding: 36px;
+    text-align: center;
+    animation-name: div5;
+    animation-duration: 3s;
+    animation-delay: 12s;
+    animation-fill-mode: forwards;
+     position: absolute;
+}
+@keyframes div5{
+    0%{
+        left: 0px;
+        background-color:  rgb(154, 154, 170);
+    }
+    100%{
+        left: 1100px;
+        background-image: url(nature4.jpg);
+    }
+}
+.div6{
+    height: 100px;
+    width: 200px;
+    background-color: rgb(154, 154, 170);
+    background-size: cover;
+    border-radius: 20px;
+    top: 650px;
+    font-size: 24px;
+    color: rgb(2, 27, 39);
+    padding: 30px;
+    text-align: center;
+    animation-name: div6;
+    animation-duration: 3s;
+    animation-delay: 15s;
+    animation-fill-mode: forwards;
+    animation-direction: reverse;
+     position: absolute;
+     right: 65px;
+}
+
+@keyframes div6{
+    0%{
+        left: 0px;
+        background-image: url(nature5.jpg);
+    }
+    100%{
+        left: 1100px;
+        background-color: rgb(154, 154, 170);
+    }
+}
